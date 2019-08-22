@@ -6,6 +6,13 @@ The formula in code was adapted from cMap processing scripts (https://github.com
 
 The original data processing paper: https://www.biorxiv.org/content/biorxiv/early/2017/05/10/136168.full.pdf 
 
+the formula is :
+z = (x - u) / s
+
+x: input value
+u: median 
+s: MAD 
+
 Example files:
 1. Control.csv: The normalized signal values of gene-probes in control datasets.
 2. Diseased.csv: The normalized signal values of gene-probes in diseased datasets or treated datasets
