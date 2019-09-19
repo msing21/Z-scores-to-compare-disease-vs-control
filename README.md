@@ -20,4 +20,4 @@ Example files:
 
 The input files must be in pandas dataframe format.
 
-The command line: 'python Z_script.py -in1 Disease.csv -in2 control.csv'
+The command line: 'python Z_script.py -in1 Disease.csv -in2 control.csv -out result.csv'
